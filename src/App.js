@@ -98,13 +98,13 @@ const App = () => {
         ))}
         <button>Submit</button>
       </form>
-      <div style={{ marginRight: "50px" }}>
-        <p>{values.firstname}</p>
-        <p>{values.middlename}</p>
-        <p>{values.lastname}</p>
-        <p>{values.email}</p>
-        <p>{values.birthday}</p>
-        <p>{values.password}</p>
+      <div className="app1">
+        <p>firstname : {values.firstname}</p>
+        <p>middlename : {values.middlename}</p>
+        <p>lastname : {values.lastname}</p>
+        <p>email : {values.email}</p>
+        <p>birthday : {values.birthday}</p>
+        <p>password : {values.password}</p>
       </div>
     </div>
   );

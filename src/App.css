@@ -7,6 +7,12 @@
   background-size: cover;
   background-position: center;
 }
+.app1 {
+  align-items: end;
+  border: solid 1px black;
+  padding: 10px;
+  margin: 10px;
+}
 
 form {
   background-color: white;
